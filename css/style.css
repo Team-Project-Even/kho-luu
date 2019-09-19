@@ -673,4 +673,16 @@ ul.navbar-nav li a.active span{
       padding-left: 15px !important;
     }
 
+    .banner-main #myCarousel .carousel-caption {
+      top:0;
+    }
+
+    .banner-main #myCarousel .carousel-caption h3 {
+      font-size:24px;
+    }
+
+    .banner-main #myCarousel .carousel-caption p {
+    font-size: 16px;
+    }
+
 }
