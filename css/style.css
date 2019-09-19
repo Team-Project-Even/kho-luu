@@ -314,6 +314,11 @@ ul.navbar-nav li a.active span{
   padding:0 5px;
 }
 
+.copyright {
+  padding: 15px 0px 0;
+}
+
+
 .main_not_front {
   margin-top:40px;
   margin-bottom: 40px;
@@ -620,54 +625,52 @@ ul.navbar-nav li a.active span{
 
 
 @media (max-width:768px) {
-  .header-main .menu {
-    position: absolute;
-    top: 0;
-    right: 0;
-    z-index: 33;
-    padding: 0;
-    width: 75%;
-  }
-  .header-main .menu button {
-    display: block;
-    position: absolute;
-    top: 30px;
-    right: 15px;
-    z-index: 99;
-  }
-  ul.navbar-nav {
-    background: #000;
-    margin-top: 0;
-    padding-top:60px;
-    width: 100%;
-  }
-  ul.navbar-nav li a {
-    color:#fff !important;
-    line-height:50px;
-  }
-  ul.navbar-nav li a.active {
-  	display:block;
-  	background:#868686 !important;
-  	width:100%;
-  }
-  ul.navbar-nav li a.active span {
-  	border-bottom:0;
-  }
+    .header-main .menu {
+      position: absolute;
+      top: 0;
+      right: 0;
+      z-index: 33;
+      padding: 0;
+      width: 75%;
+    }
+    .header-main .menu button {
+      display: block;
+      position: absolute;
+      top: 30px;
+      right: 15px;
+      z-index: 99;
+    }
+    ul.navbar-nav {
+      background: #ccc;
+      margin-top: 0;
+      padding-top:60px;
+      width: 100%;
+    }
+    ul.navbar-nav li a {
+      line-height:30px;
+      font-size:14px;
+    }
+    ul.navbar-nav li a.active {
+    	display:block;
+    	background:#868686 !important;
+    	width:100%;
+    }
+    ul.navbar-nav li a.active span {
+    	border-bottom:0;
+    }
 
-  ul.navbar-nav li {
-    border-bottom:1px solid #fff;
-  }
-  .modal-content {
-    padding:0;
-    top:30%;
-  }
-  .gallery_list .col-md-4 {
-    height:200px;
-  }
-  .contact {
-    padding-left: 15px !important;
-  }
+    ul.navbar-nav li {
+      border-bottom:1px solid #fff;
+    }
+    .modal-content {
+      padding:0;
+      top:30%;
+    }
+    .gallery_list .col-md-4 {
+      height:200px;
+    }
+    .contact {
+      padding-left: 15px !important;
+    }
 
 }
-
-/*END TUAN-----------------------------------------------------*/
