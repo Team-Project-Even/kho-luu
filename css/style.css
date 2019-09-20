@@ -685,4 +685,8 @@ ul.navbar-nav li a.active span{
     font-size: 16px;
     }
 
+    .event img {
+    height: auto;
+  }
+
 }
