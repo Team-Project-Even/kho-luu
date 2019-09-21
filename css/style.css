@@ -27,6 +27,32 @@ ul li {
   list-style: none;
   padding: 0;
 }
+
+.search-container {
+  text-align: right;
+  padding:10px 15px;
+}
+
+.search-container input {
+  height:35px;
+  padding:0 10px;
+  width:50%;
+}
+
+.search-container form {
+  position:relative;
+}
+.search-container form button {
+    vertical-align: middle;
+    position: absolute;
+    right: 1px;
+    border: 0;
+    border-radius: 0;
+    top: 1px;
+    padding: 6px 10px;
+    line-height: 1.8;
+}
+
 #footer {
   clear: both;
   }
