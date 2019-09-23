@@ -27,7 +27,9 @@ ul li {
   list-style: none;
   padding: 0;
 }
-
+.search {
+	background:#fafafa;
+}
 .search-container {
   text-align: right;
   padding:10px 15px;
