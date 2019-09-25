@@ -348,8 +348,10 @@ ul.navbar-nav li a.active span{
 
 
 .main_not_front {
-  margin-top:40px;
-  margin-bottom: 40px;
+	margin-top: 5px;
+    margin-bottom: 40px;
+    box-shadow: 0px -2px 3px 0px #f1f1f1;
+    padding-top: 30px;
 }
 .menu_list h4{
   padding-bottom:4px;
